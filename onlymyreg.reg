@@ -1,0 +1,58 @@
+REGEDIT.11
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"EnablePMTUBHDetect"=dword:00000000
+"EnablePMTUDiscovery"=dword:00000000
+"TcpMaxDupAcks"=dword:00000003
+"GlobalMaxTcpWindowSize"=dword:0036005f
+"MTU"=dword:000005dc
+"MSS"=dword:000005b4
+"MaxUserPort"=dword:00065534
+"MaxHashTableSize"=dword:00001000
+"TcpTimedWaitDelay"=dword:0000001e
+"DisableTaskOffload"=dword:00000001
+"EnableWsd"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpMaxDataRetransmissions"=dword:00000003
+"SackOpts"=dword:00000001
+"TcpWindowSize"=dword:0005ae4c
+"Tcp1323Opts"=dword:00000003
+"DefaultTTL"=dword:7fff
+"EnablePMTUBHDetect"=dword:00000000
+"EnablePMTUDiscovery"=dword:00000001
+"GlobalMaxTcpWindowSize"=dword-:0005ae4c
+"TcpTimedWaitDelay" dword:30
+"TcpNumConnections" dword:7fff
+"TcpMaxDupAcks" dword:2
+"TcpWindowSize" dword:7fff
+"WorldMaxTcpWindowsSize" dword:7
+"TCPInitialRtt" dword:7fff
+"IRPStackSize" dword:50
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched]
+"NonBestEffortLimit"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000026
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpAckFrequency"=dword:650
+"TcpNoDelay"=dword:650
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpNoDelay"=dword:1288fff
+"TCPDelAckTicks"=dword:1288fff
+"TcpMaxDataRetransmissions"=dword:00000003
+"SackOpts"=dword:00000001
+"TcpWindowSize"=dword:0005ae4c
+"Tcp1323Opts"=dword:00000003
+"DefaultTTL"=dword:7fff
+"EnablePMTUBHDetect"=dword:00000000
+"EnablePMTUDiscovery"=dword:00000001
+"GlobalMaxTcpWindowSize"=dword:0005ae4c
+"TcpTimedWaitDelay" dword:30
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces]
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
